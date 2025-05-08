@@ -13,7 +13,7 @@
 - **Service Registry (Eureka Server)**: Acts as the central service registry for all microservices, enabling dynamic discovery and communication between services.
 
   
-## 🛠️ Technologies Used
+##  Technologies Used
 - **React.js**
 - **Node.js**
 - **Spring Boot**
@@ -22,7 +22,7 @@
 - **Swagger**
   
 
-## 📦 Structure
+##  Structure
   ![image](https://github.com/user-attachments/assets/a9714a40-0af0-4c84-b9dd-98f3df36d742)
 
 
