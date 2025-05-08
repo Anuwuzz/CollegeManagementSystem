@@ -1,0 +1,96 @@
+
+body {
+  background-color: #F4F4F4; /* Light gray for a clean background */
+  color: #000000; /* Dark gray for text readability */
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #004080; /* Navy blue for the navbar */
+}
+
+.navbar-brand, .nav-link, .dropdown-item {
+  color: #000000c8 !important; /* White for text in navbar */
+}
+
+.btn-link {
+  color: #FF6347 !important; /* Tomato for buttons */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #004080; /* Navy blue for headings */
+}
+
+.container {
+  background: #FFFFFF; /* White background for main content */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.text-center {
+  margin-bottom: 40px;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+/* App.css or index.css */
+body {
+  background-image: url('./web_design.png'); /* Replace with your actual image name */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  color: #000000; /* Text color for readability */
+  font-family: Arial, sans-serif;
+  
+}
+
+.navbar-brand {
+  padding-left: 20px;
+  font-size: 1.8em; /* Make the brand slightly larger */
+  color: #9ce3e3c8; /* Light blue for the brand text */
+  text-decoration: none;
+}
+
+.navbar-nav {
+  display: flex; /* Use flexbox for nav links */
+  margin-left: 300px; /* Push nav links to the right */
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+
+/* Additional styles */
+.container {
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for content */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+ 
+.text-center {
+  margin-bottom: 40px;
+}
+
+.Welcome {
+  text-align: center;
+  padding: 40px;
+  background-color: rgba(0, 123, 255, 0.8); /* Semi-transparent blue for the welcome message */
+  color: white;
+  font-size: 30px;
+  border-radius: 8px;
+  width: 80%; /* Optional: Set width to ensure it doesn't stretch too far */
+  max-width: 600px; /* Limit the maximum width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+ 
+
+main {
+  padding: 20px;
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center content */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Ensure the main area takes the full viewport height */
+}
